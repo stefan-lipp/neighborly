@@ -1,6 +1,4 @@
-import logging.config
-import os
-from flask import Flask, Blueprint, request, jsonify, render_template, redirect, url_for
+from flask import Flask, request, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap
 import settings
 import requests
